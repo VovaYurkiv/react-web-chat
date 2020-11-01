@@ -1,0 +1,34 @@
+.container {
+  margin: auto;
+  width: 55%;
+  border-bottom: 20px solid rgb(161, 161, 161);
+}
+
+.whole-chat {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat-shell {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-section {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    border-bottom: 10px solid rgb(161, 161, 161);
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .container {
+    width: 100%;
+  }
+}

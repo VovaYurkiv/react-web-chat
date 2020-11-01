@@ -1,0 +1,59 @@
+.submit-msg {
+  border-top: 1px solid rgb(210, 210, 210);
+  background-color: rgb(238, 238, 238);
+  padding: 25px 0px 24px 0px;
+  text-align: center;
+}
+
+.type-msg {
+  width: 80%;
+  padding: 15px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border: none;
+  outline: none;
+}
+
+.send-msg {
+  color: rgb(0, 89, 255);
+  font-weight: 600;
+  padding: 15px;
+  background-color: white;
+  border: none;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  outline: none;
+}
+
+.send-msg:hover {
+  cursor: pointer;
+  color: rgb(0, 64, 182);
+}
+
+@media screen and (max-width: 1580px) {
+  .type-msg {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .type-msg {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .submit-msg {
+    padding: 5px 0px 5px 0px;
+  }
+
+  .send-msg {
+    padding: 10px;
+    font-size: 11px;
+  }
+
+  .type-msg {
+    font-size: 11px;
+    padding: 10px;
+  }
+}

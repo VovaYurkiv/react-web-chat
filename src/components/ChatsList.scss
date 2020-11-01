@@ -1,0 +1,39 @@
+.chats-logo {
+  display: flex;
+  padding: 30px 15px 30px 15px;
+  font-size: 18px;
+  color: rgb(47, 96, 160);
+  background-color: rgb(218, 226, 233);
+}
+
+.chats {
+  height: 635px;
+  overflow-y: scroll;
+  background-color: rgb(218, 226, 233);
+}
+
+@media screen and (max-width: 900px) {
+  .chats-logo {
+    font-size: 14px;
+  }
+
+  .chats {
+    height: 426px;
+  }
+}
+
+@media screen and (max-height: 720px) {
+  .chats {
+    height: 321px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .chats {
+    height: 447px;
+  }
+
+  .chats-logo {
+    padding: 15px 0px 15px 5px;
+  }
+}

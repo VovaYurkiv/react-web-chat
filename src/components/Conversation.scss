@@ -1,0 +1,18 @@
+.main-conversation {
+  height: 694px;
+  background-color: rgb(238, 238, 238);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 900px) {
+  .main-conversation {
+    height: 505px;
+  }
+}
+
+@media screen and (max-height: 720px) {
+  .main-conversation {
+    height: 380px;
+  }
+}
