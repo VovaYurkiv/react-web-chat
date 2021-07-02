@@ -1,4 +1,4 @@
-# Deploy is here:
+# To experience this project hit the link below:
 https://react-chat-4cde3.web.app
 
 # Getting Started with Create React App
